@@ -1,16 +1,18 @@
 <script setup lang="ts">
 import { siteConfig } from '~/data/siteConfig'
 
-const items = [
-  { icon: 'mail', label: 'E-mail', value: siteConfig.email, href: `mailto:${siteConfig.email}` },
-  { icon: 'phone', label: 'Telefon', value: siteConfig.phone, href: `tel:${siteConfig.phoneHref}` },
+const { t } = useI18n()
+
+const items = computed(() => [
+  { icon: 'mail', label: t('contact.emailLabel'), value: siteConfig.email, href: `mailto:${siteConfig.email}` },
+  { icon: 'phone', label: t('contact.phoneLabel'), value: siteConfig.phone, href: `tel:${siteConfig.phoneHref}` },
   {
     icon: 'pin',
-    label: 'Adresa',
+    label: t('contact.addressLabel'),
     value: `${siteConfig.address.street}, ${siteConfig.address.zip} ${siteConfig.address.city}`,
     href: siteConfig.googleMapsUrl,
   },
-]
+])
 </script>
 
 <template>

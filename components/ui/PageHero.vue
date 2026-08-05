@@ -7,6 +7,8 @@ const props = defineProps<{
   subtitle?: string
   image: SectionImage
 }>()
+
+const { tr } = useTranslated()
 </script>
 
 <template>
@@ -14,7 +16,7 @@ const props = defineProps<{
     <div class="relative h-[34vh] min-h-[260px] max-h-[380px] w-full bg-forest-900">
       <NuxtImg
         :src="sectionImageUrl(props.image)"
-        :alt="props.image.alt"
+        :alt="tr(props.image.translations)"
         :width="props.image.width"
         :height="props.image.height"
         class="absolute inset-0 h-full w-full object-cover"

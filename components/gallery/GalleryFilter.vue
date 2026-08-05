@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ImageCategory } from '~/types/content'
-import { galleryCategoryLabels, galleryCategoryOrder } from '~/data/galleryCategories'
+import { galleryCategoryOrder } from '~/data/galleryCategories'
 
 const props = defineProps<{
   modelValue: ImageCategory | 'vse'
@@ -9,14 +9,16 @@ const props = defineProps<{
 
 const emit = defineEmits<{ 'update:modelValue': [ImageCategory | 'vse'] }>()
 
-const options: Array<{ value: ImageCategory | 'vse'; label: string }> = [
-  { value: 'vse', label: 'Vše' },
-  ...galleryCategoryOrder.map((value) => ({ value, label: galleryCategoryLabels[value] })),
-]
+const { t } = useI18n()
+
+const options = computed<Array<{ value: ImageCategory | 'vse'; label: string }>>(() => [
+  { value: 'vse', label: t('gallery.all') },
+  ...galleryCategoryOrder.map((value) => ({ value, label: t(`gallery.categories.${value}`) })),
+])
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-2" role="group" aria-label="Filtrovat fotografie podle kategorie">
+  <div class="flex flex-wrap gap-2" role="group" :aria-label="t('gallery.filterAriaLabel')">
     <button
       v-for="option in options"
       :key="option.value"

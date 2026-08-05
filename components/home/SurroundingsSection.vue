@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { surroundings } from '~/data/surroundings'
 import { sectionImageUrl } from '~/data/media'
+
+const { t } = useI18n()
+const { tr } = useTranslated()
 </script>
 
 <template>
@@ -8,8 +11,8 @@ import { sectionImageUrl } from '~/data/media'
     <div class="mx-auto max-w-6xl px-4 sm:px-6">
       <FadeIn>
         <SectionHeading
-          eyebrow="Okolí"
-          title="Krásná okolní příroda a klidná atmosféra"
+          :eyebrow="t('home.surroundings.eyebrow')"
+          :title="t('home.surroundings.title')"
           align="center"
           class="[&_h2]:text-sand-50 [&_p]:text-sand-100/80"
         />
@@ -20,7 +23,7 @@ import { sectionImageUrl } from '~/data/media'
           <article class="overflow-hidden rounded-xl2 bg-forest-800">
             <NuxtImg
               :src="sectionImageUrl(block.image)"
-              :alt="block.image.alt"
+              :alt="tr(block.image.translations)"
               :width="block.image.width"
               :height="block.image.height"
               class="aspect-[4/3] w-full object-cover"
@@ -29,8 +32,8 @@ import { sectionImageUrl } from '~/data/media'
             />
             <div class="p-6">
               <p class="text-sm font-medium text-sand-200/80">{{ index + 1 }}.</p>
-              <h3 class="mt-1 font-display text-xl font-semibold text-sand-50">{{ block.title }}</h3>
-              <p class="mt-3 text-sm leading-relaxed text-sand-100/80">{{ block.body }}</p>
+              <h3 class="mt-1 font-display text-xl font-semibold text-sand-50">{{ tr(block.translations).title }}</h3>
+              <p class="mt-3 text-sm leading-relaxed text-sand-100/80">{{ tr(block.translations).body }}</p>
             </div>
           </article>
         </FadeIn>

@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import { siteConfig } from '~/data/siteConfig'
 
+const { tr } = useTranslated()
+const head = useLocaleHead()
+useHead(head)
+
 useSchemaOrg([
   defineLocalBusiness({
     '@type': 'LodgingBusiness',
     name: siteConfig.name,
-    description: siteConfig.tagline,
+    description: tr(siteConfig.translations).tagline,
     telephone: siteConfig.phoneHref,
     email: siteConfig.email,
     address: {
@@ -21,7 +25,11 @@ useSchemaOrg([
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <Html :lang="head.htmlAttrs?.lang" :dir="head.htmlAttrs?.dir">
+    <Body>
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </Body>
+  </Html>
 </template>

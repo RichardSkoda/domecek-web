@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Amenities",
+    "gallery": "Gallery",
+    "pricing": "Pricing",
+    "availability": "Availability",
+    "booking": "Booking",
+    "contact": "Contact",
+    "bookingCta": "Booking"
+  },
+  "header": {
+    "brandFirst": "Domeček",
+    "brandSecond": "Oseček",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageSwitcherLabel": "Switch language"
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "instagramHandle": "{'@'}domecek_osecek",
+    "copyright": "© {year} Domeček Oseček. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "An oasis of calm in a cottage area",
+      "description": "A fully equipped, insulated brick cottage by the Elbe river in the peaceful Oseček cottage area. Layout for up to 5 guests.",
+      "ctaPrimary": "Book your stay",
+      "ctaSecondary": "View the gallery"
+    },
+    "intro": {
+      "eyebrow": "About the cottage",
+      "title": "Comfortable amenities amid nature",
+      "body1": "We're located in a peaceful cottage area by the Elbe river, offering a fully equipped, insulated brick cottage for comfortable stays. The cottage has a 3-room layout. The bedroom has a 160×200 cm double bed, and the small room has bunk beds (90×200 cm). If needed, the living-room sofa can also be used for sleeping.",
+      "body2": "The cottage has a fully equipped kitchen with a fridge, freezer, dishwasher, hob, oven, microwave, coffee machine and wine fridge. For heating comfort there's an air-conditioning unit, underfloor heating throughout, an electric heater in the bedroom, and a wood-burning stove. Our own water treatment system ensures drinking water of the highest quality.",
+      "cta": "Rental pricing →"
+    },
+    "highlights": {
+      "eyebrow": "Key highlights",
+      "title": "Everything you need for a comfortable stay"
+    },
+    "amenities": {
+      "eyebrow": "Amenities",
+      "title": "Cottage amenities",
+      "cta": "See all amenities →"
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "See what it looks like",
+      "cta": "Full gallery →"
+    },
+    "surroundings": {
+      "eyebrow": "Surroundings",
+      "title": "Beautiful nature and a peaceful atmosphere"
+    },
+    "petsNotice": {
+      "text": "Small pets are welcome by arrangement — {bold} are not permitted on the property.",
+      "bold": "larger pets (dogs, cats)",
+      "thanks": "Thank you for understanding — we strive to keep the property clean and pleasant for all guests."
+    },
+    "cta": {
+      "title": "Interested in our cottage?",
+      "button": "Get in touch"
+    }
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Domeček Oseček — cottage for rent by the Elbe",
+        "description": "A fully equipped brick cottage with a 3-room layout for up to 5 guests in the peaceful Oseček cottage area by the Elbe river. Terrace, fire pit, air conditioning and its own well.",
+        "ogDescription": "An oasis of calm in the Oseček cottage area. Book your stay in a fully equipped cottage for up to 5 guests."
+      }
+    },
+    "sluzby": {
+      "seo": {
+        "title": "Cottage amenities — Domeček Oseček",
+        "description": "An overview of the cottage's amenities: a fully equipped kitchen, air conditioning, terrace with grill, on-site parking and more."
+      },
+      "hero": {
+        "title": "Cottage amenities",
+        "subtitle": "Our accommodation gives you everything you need for a pleasant time with family or friends."
+      },
+      "equipment": {
+        "eyebrow": "Practical equipment",
+        "title": "Ready for your comfortable stay",
+        "body": "To make your stay as comfortable as possible, we've stocked the cottage with everyday household essentials. You won't need to bring basic hygiene or cleaning supplies."
+      }
+    },
+    "fotogalerie": {
+      "seo": {
+        "title": "Gallery — Domeček Oseček",
+        "description": "Photo gallery of Domeček Oseček — interior, exterior, terrace and the surrounding nature."
+      },
+      "hero": {
+        "title": "Gallery",
+        "subtitle": "The cottage is an ideal place for a family holiday or a romantic getaway for two. The interior is modern and cosy."
+      }
+    },
+    "cenik": {
+      "seo": {
+        "title": "Pricing — Domeček Oseček",
+        "description": "Seasonal rental pricing for Domeček Oseček — nightly rate and a discounted rate for a 7-night stay."
+      },
+      "hero": {
+        "title": "Pricing",
+        "subtitle": "Rental prices vary depending on the season."
+      },
+      "cta": "Send a booking request"
+    },
+    "obsazenost": {
+      "seo": {
+        "title": "Availability — Domeček Oseček",
+        "description": "Check the current availability of Domeček Oseček in the calendar, or get in touch with us."
+      },
+      "hero": {
+        "title": "Availability"
+      },
+      "contactPrompt": "To check current availability, please {link}.",
+      "contactLinkText": "get in touch"
+    },
+    "rezervace": {
+      "seo": {
+        "title": "Booking — Domeček Oseček",
+        "description": "Fill in the booking form, or contact us by phone or e-mail."
+      },
+      "hero": {
+        "title": "Booking",
+        "subtitle": "To book our holiday cottage, simply fill in the booking form."
+      },
+      "intro": "In the booking form, please state your desired dates, number of guests and any other requests. Once you submit the form, we'll contact you to confirm your booking and share further details.",
+      "phonePrompt": "Prefer to sort things out quickly by phone? You can also book by calling {phone}.",
+      "emailPrompt": "Prefer e-mail? {email}"
+    },
+    "kontakt": {
+      "seo": {
+        "title": "Contact — Domeček Oseček",
+        "description": "Contact us by phone, e-mail or via the form. Address: {street}, {zip} {city}."
+      },
+      "hero": {
+        "title": "Contact",
+        "subtitle": "If you're interested in renting the cottage, you can reach us by phone, e-mail, or via the form below."
+      },
+      "formEyebrow": "Form",
+      "formTitle": "Send us a message",
+      "instagramText": "Follow us on Instagram {'@'}domecek_osecek"
+    }
+  },
+  "gallery": {
+    "all": "All",
+    "filterAriaLabel": "Filter photos by category",
+    "empty": "There are no photos in this category yet.",
+    "categories": {
+      "exterier": "Exterior",
+      "interier": "Interior",
+      "kuchyne": "Kitchen",
+      "loznice": "Bedroom",
+      "koupelna": "Bathroom",
+      "terasa": "Terrace",
+      "zahrada": "Garden",
+      "okoli": "Surroundings",
+      "atmosfera": "Atmosphere"
+    },
+    "lightbox": {
+      "close": "Close",
+      "prev": "Previous photo",
+      "next": "Next photo"
+    }
+  },
+  "pricing": {
+    "table": {
+      "season": "Season",
+      "unit": "Unit",
+      "price": "Price"
+    },
+    "units": {
+      "night": "night",
+      "week": "7 nights"
+    }
+  },
+  "availability": {
+    "embedTitle": "Domeček Oseček availability calendar",
+    "fallbackNotice": "Calendar not loading? Your browser may have blocked the embedded Google content (typically Firefox with tracking protection enabled).",
+    "openInNewWindow": "Open calendar in a new window"
+  },
+  "contact": {
+    "emailLabel": "E-mail",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "mapTitle": "Map — Domeček Oseček",
+    "mapFallback": "Map not loading?",
+    "mapOpenLink": "Open in Google Maps"
+  },
+  "forms": {
+    "booking": {
+      "nameLabel": "Full name",
+      "phoneLabel": "Phone number",
+      "emailLabel": "E-mail",
+      "datesLabel": "Requested dates",
+      "guestsLabel": "Number of guests",
+      "messageLabel": "Message (optional)",
+      "submit": "Send request",
+      "submitting": "Sending…"
+    },
+    "contact": {
+      "nameLabel": "Full name",
+      "emailLabel": "E-mail",
+      "messageLabel": "Message",
+      "submit": "Send message",
+      "submitting": "Sending…"
+    },
+    "gdpr": {
+      "label": "I agree to the processing of my personal data for the purpose of handling my request."
+    },
+    "errors": {
+      "missingFields": "Please fill in all required fields.",
+      "serverError": "Sending failed, please try again."
+    },
+    "success": {
+      "contactSuccess": "Thank you for your message, we'll get back to you as soon as possible.",
+      "bookingSuccess": "Thank you for your request, we'll get back to you with a booking confirmation."
+    }
+  }
+}

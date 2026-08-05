@@ -4,6 +4,9 @@ import { galleryImageUrl } from '~/data/gallery'
 
 const props = defineProps<{ images: GalleryImage[] }>()
 
+const { t } = useI18n()
+const { tr } = useTranslated()
+
 const activeIndex = ref<number | null>(null)
 
 function open(index: number) {
@@ -17,7 +20,7 @@ function close() {
 
 <template>
   <div>
-    <p v-if="props.images.length === 0" class="text-sm text-ink-700">V této kategorii zatím nejsou žádné fotografie.</p>
+    <p v-if="props.images.length === 0" class="text-sm text-ink-700">{{ t('gallery.empty') }}</p>
 
     <div v-else class="columns-2 gap-4 sm:columns-3 lg:columns-4">
       <button
@@ -29,7 +32,7 @@ function close() {
       >
         <NuxtImg
           :src="galleryImageUrl(image)"
-          :alt="image.alt"
+          :alt="tr(image.translations)"
           :width="image.width"
           :height="image.height"
           class="w-full object-cover transition-transform duration-300 hover:scale-105"

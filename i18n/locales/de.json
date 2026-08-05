@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "Start",
+    "services": "Ausstattung",
+    "gallery": "Galerie",
+    "pricing": "Preise",
+    "availability": "Verfügbarkeit",
+    "booking": "Reservierung",
+    "contact": "Kontakt",
+    "bookingCta": "Reservierung"
+  },
+  "header": {
+    "brandFirst": "Domeček",
+    "brandSecond": "Oseček",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "languageSwitcherLabel": "Sprache wechseln"
+  },
+  "footer": {
+    "quickLinks": "Schnellzugriff",
+    "contact": "Kontakt",
+    "instagramHandle": "{'@'}domecek_osecek",
+    "copyright": "© {year} Domeček Oseček. Alle Rechte vorbehalten."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Eine Oase der Ruhe im Ferienhausgebiet",
+      "description": "Ein voll ausgestattetes, gedämmtes Ferienhaus aus Ziegelstein am Fluss Elbe im ruhigen Ferienhausgebiet Oseček. Aufteilung 3kk für bis zu 5 Personen.",
+      "ctaPrimary": "Aufenthalt buchen",
+      "ctaSecondary": "Galerie ansehen"
+    },
+    "intro": {
+      "eyebrow": "Über das Ferienhaus",
+      "title": "Komfortable Unterkunft mitten in der Natur",
+      "body1": "Wir befinden uns in einem ruhigen Ferienhausgebiet an der Elbe und bieten ein voll ausgestattetes, gedämmtes Ferienhaus aus Ziegelstein für einen komfortablen Aufenthalt. Das Haus hat die Aufteilung 3kk. Im Schlafzimmer finden Sie ein Doppelbett (160×200 cm), im kleinen Zimmer ein Etagenbett (90×200 cm). Bei Bedarf kann auch die Couch im Wohnzimmer zum Schlafen genutzt werden.",
+      "body2": "Das Ferienhaus verfügt über eine voll ausgestattete Küche mit Kühlschrank, Gefrierschrank, Spülmaschine, Kochfeld, Backofen, Mikrowelle, Kaffeemaschine und Weinkühlschrank. Für den Wärmekomfort sorgen eine Klimaanlage, Fußbodenheizung im gesamten Objekt, ein elektrisches Heizgerät im Schlafzimmer sowie ein Kaminofen. Die hauseigene Wasseraufbereitung sorgt für Trinkwasser in höchster Qualität.",
+      "cta": "Mietpreise →"
+    },
+    "highlights": {
+      "eyebrow": "Die wichtigsten Vorteile",
+      "title": "Alles, was Sie für einen angenehmen Aufenthalt brauchen"
+    },
+    "amenities": {
+      "eyebrow": "Ausstattung",
+      "title": "Ausstattung des Ferienhauses",
+      "cta": "Gesamte Ausstattung →"
+    },
+    "gallery": {
+      "eyebrow": "Galerie",
+      "title": "Sehen Sie, wie es bei uns aussieht",
+      "cta": "Zur ganzen Galerie →"
+    },
+    "surroundings": {
+      "eyebrow": "Umgebung",
+      "title": "Wunderschöne Natur und ruhige Atmosphäre"
+    },
+    "petsNotice": {
+      "text": "Kleinere Tiere sind nach Absprache erlaubt, {bold} sind auf dem Grundstück nicht gestattet.",
+      "bold": "größere Haustiere (Hunde, Katzen)",
+      "thanks": "Vielen Dank für Ihr Verständnis — wir bemühen uns, für alle Gäste eine saubere und angenehme Umgebung zu erhalten."
+    },
+    "cta": {
+      "title": "Gefällt Ihnen unser Ferienhaus?",
+      "button": "Kontaktieren Sie uns"
+    }
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Domeček Oseček — Ferienhaus zur Miete an der Elbe",
+        "description": "Voll ausgestattetes Ferienhaus aus Ziegelstein, Aufteilung 3kk, für bis zu 5 Personen im ruhigen Ferienhausgebiet Oseček an der Elbe. Terrasse, Feuerstelle, Klimaanlage und eigener Brunnen.",
+        "ogDescription": "Eine Oase der Ruhe im Ferienhausgebiet Oseček. Buchen Sie Ihren Aufenthalt im voll ausgestatteten Ferienhaus für bis zu 5 Personen."
+      }
+    },
+    "sluzby": {
+      "seo": {
+        "title": "Ausstattung des Ferienhauses — Domeček Oseček",
+        "description": "Übersicht der Ausstattung des Ferienhauses Domeček Oseček: voll ausgestattete Küche, Klimaanlage, Terrasse mit Grill, Parkplatz am Haus und mehr."
+      },
+      "hero": {
+        "title": "Ausstattung des Ferienhauses",
+        "subtitle": "Unsere Unterkunft bietet Ihnen alles für angenehme Stunden mit Familie oder Freunden."
+      },
+      "equipment": {
+        "eyebrow": "Praktische Ausstattung",
+        "title": "Bereit für Ihren komfortablen Aufenthalt",
+        "body": "Damit Ihr Aufenthalt so komfortabel wie möglich ist, haben wir das Ferienhaus mit den üblichen Haushaltsartikeln ausgestattet. Sie müssen keine grundlegenden Hygiene- oder Reinigungsartikel mitbringen."
+      }
+    },
+    "fotogalerie": {
+      "seo": {
+        "title": "Galerie — Domeček Oseček",
+        "description": "Fotogalerie des Ferienhauses Domeček Oseček — Innenräume, Außenbereich, Terrasse und die umliegende Natur."
+      },
+      "hero": {
+        "title": "Galerie",
+        "subtitle": "Das Ferienhaus ist der ideale Ort für einen Familienurlaub oder einen romantischen Aufenthalt zu zweit. Das Interieur ist modern und gemütlich eingerichtet."
+      }
+    },
+    "cenik": {
+      "seo": {
+        "title": "Preise — Domeček Oseček",
+        "description": "Saisonale Mietpreise für das Ferienhaus Domeček Oseček — Preis pro Nacht sowie ein vergünstigter Preis für 7 Nächte."
+      },
+      "hero": {
+        "title": "Preise",
+        "subtitle": "Die Mietpreise variieren je nach Saison."
+      },
+      "cta": "Buchungsanfrage senden"
+    },
+    "obsazenost": {
+      "seo": {
+        "title": "Verfügbarkeit — Domeček Oseček",
+        "description": "Prüfen Sie die aktuelle Verfügbarkeit des Ferienhauses Domeček Oseček im Kalender oder kontaktieren Sie uns."
+      },
+      "hero": {
+        "title": "Verfügbarkeit"
+      },
+      "contactPrompt": "Um die aktuelle Verfügbarkeit zu erfahren, {link} Sie uns bitte.",
+      "contactLinkText": "kontaktieren"
+    },
+    "rezervace": {
+      "seo": {
+        "title": "Reservierung — Domeček Oseček",
+        "description": "Füllen Sie das Reservierungsformular aus oder kontaktieren Sie uns telefonisch bzw. per E-Mail."
+      },
+      "hero": {
+        "title": "Reservierung",
+        "subtitle": "Um unser Ferienhaus zu reservieren, genügt es, das Reservierungsformular auszufüllen."
+      },
+      "intro": "Geben Sie im Reservierungsformular den gewünschten Zeitraum, die Personenzahl und eventuelle weitere Wünsche an. Nach dem Absenden des Formulars kontaktieren wir Sie zur Bestätigung der Reservierung und zur Übermittlung weiterer Informationen.",
+      "phonePrompt": "Möchten Sie lieber schnell und persönlich klären? Eine Reservierung ist auch telefonisch unter {phone} möglich.",
+      "emailPrompt": "Bevorzugen Sie E-Mail? {email}"
+    },
+    "kontakt": {
+      "seo": {
+        "title": "Kontakt — Domeček Oseček",
+        "description": "Kontaktieren Sie uns telefonisch, per E-Mail oder über das Formular. Adresse: {street}, {zip} {city}."
+      },
+      "hero": {
+        "title": "Kontakt",
+        "subtitle": "Wenn Sie an einer Miete interessiert sind, erreichen Sie uns telefonisch, per E-Mail oder über das beigefügte Formular."
+      },
+      "formEyebrow": "Formular",
+      "formTitle": "Schreiben Sie uns",
+      "instagramText": "Folgen Sie uns auf Instagram {'@'}domecek_osecek"
+    }
+  },
+  "gallery": {
+    "all": "Alle",
+    "filterAriaLabel": "Fotos nach Kategorie filtern",
+    "empty": "In dieser Kategorie gibt es noch keine Fotos.",
+    "categories": {
+      "exterier": "Außenbereich",
+      "interier": "Innenraum",
+      "kuchyne": "Küche",
+      "loznice": "Schlafzimmer",
+      "koupelna": "Badezimmer",
+      "terasa": "Terrasse",
+      "zahrada": "Garten",
+      "okoli": "Umgebung",
+      "atmosfera": "Atmosphäre"
+    },
+    "lightbox": {
+      "close": "Schließen",
+      "prev": "Vorheriges Foto",
+      "next": "Nächstes Foto"
+    }
+  },
+  "pricing": {
+    "table": {
+      "season": "Saison",
+      "unit": "Einheit",
+      "price": "Preis"
+    },
+    "units": {
+      "night": "Nacht",
+      "week": "7 Nächte"
+    }
+  },
+  "availability": {
+    "embedTitle": "Verfügbarkeitskalender Domeček Oseček",
+    "fallbackNotice": "Kalender wird nicht geladen? Ihr Browser hat möglicherweise die eingebetteten Google-Inhalte blockiert (typisch bei Firefox mit aktiviertem Tracking-Schutz).",
+    "openInNewWindow": "Kalender in neuem Fenster öffnen"
+  },
+  "contact": {
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "addressLabel": "Adresse",
+    "mapTitle": "Karte — Domeček Oseček",
+    "mapFallback": "Karte wird nicht geladen?",
+    "mapOpenLink": "In Google Maps öffnen"
+  },
+  "forms": {
+    "booking": {
+      "nameLabel": "Vor- und Nachname",
+      "phoneLabel": "Telefonnummer",
+      "emailLabel": "E-Mail",
+      "datesLabel": "Gewünschter Zeitraum",
+      "guestsLabel": "Anzahl der Personen",
+      "messageLabel": "Nachricht (optional)",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet…"
+    },
+    "contact": {
+      "nameLabel": "Vor- und Nachname",
+      "emailLabel": "E-Mail",
+      "messageLabel": "Nachricht",
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet…"
+    },
+    "gdpr": {
+      "label": "Ich stimme der Verarbeitung meiner personenbezogenen Daten zur Bearbeitung meiner Anfrage zu."
+    },
+    "errors": {
+      "missingFields": "Bitte füllen Sie alle Pflichtfelder aus.",
+      "serverError": "Das Senden ist fehlgeschlagen, bitte versuchen Sie es erneut."
+    },
+    "success": {
+      "contactSuccess": "Vielen Dank für Ihre Nachricht, wir melden uns so schnell wie möglich bei Ihnen.",
+      "bookingSuccess": "Vielen Dank für Ihre Anfrage, wir melden uns mit der Bestätigung der Reservierung bei Ihnen."
+    }
+  }
+}

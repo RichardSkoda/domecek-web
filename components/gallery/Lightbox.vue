@@ -12,7 +12,11 @@ const emit = defineEmits<{
   'update:index': [number]
 }>()
 
+const { t } = useI18n()
+const { tr } = useTranslated()
+
 const current = computed(() => props.images[props.index])
+const currentAlt = computed(() => tr(current.value.translations))
 
 function next() {
   emit('update:index', (props.index + 1) % props.images.length)
@@ -44,13 +48,13 @@ onUnmounted(() => {
     class="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/95 p-4"
     role="dialog"
     aria-modal="true"
-    :aria-label="current.alt"
+    :aria-label="currentAlt"
     @click.self="emit('close')"
   >
     <button
       type="button"
       class="absolute right-4 top-4 rounded-full p-2 text-sand-50 hover:bg-sand-50/10"
-      aria-label="Zavřít"
+      :aria-label="t('gallery.lightbox.close')"
       @click="emit('close')"
     >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-7 w-7">
@@ -61,7 +65,7 @@ onUnmounted(() => {
     <button
       type="button"
       class="absolute left-2 top-1/2 -translate-y-1/2 rounded-full p-2 text-sand-50 hover:bg-sand-50/10 sm:left-6"
-      aria-label="Předchozí fotografie"
+      :aria-label="t('gallery.lightbox.prev')"
       @click="prev"
     >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-8 w-8">
@@ -71,7 +75,7 @@ onUnmounted(() => {
 
     <NuxtImg
       :src="galleryImageUrl(current)"
-      :alt="current.alt"
+      :alt="currentAlt"
       :width="current.width"
       :height="current.height"
       class="max-h-[85vh] max-w-full rounded-lg object-contain"
@@ -81,7 +85,7 @@ onUnmounted(() => {
     <button
       type="button"
       class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full p-2 text-sand-50 hover:bg-sand-50/10 sm:right-6"
-      aria-label="Další fotografie"
+      :aria-label="t('gallery.lightbox.next')"
       @click="next"
     >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-8 w-8">
@@ -89,6 +93,6 @@ onUnmounted(() => {
       </svg>
     </button>
 
-    <p class="absolute bottom-4 left-1/2 -translate-x-1/2 text-sm text-sand-100/80">{{ current.alt }}</p>
+    <p class="absolute bottom-4 left-1/2 -translate-x-1/2 text-sm text-sand-100/80">{{ currentAlt }}</p>
   </div>
 </template>

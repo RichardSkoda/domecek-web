@@ -1,22 +1,27 @@
 <script setup lang="ts">
 import { sectionBanners } from '~/data/media'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
+definePageMeta({ i18n: { paths: { en: '/pricing', de: '/preise' } } })
+
 useSeoMeta({
-  title: 'Ceník — Domeček Oseček',
-  description: 'Sezónní ceník pronájmu chaty Domeček Oseček — cena za noc i zvýhodněná cena při pronájmu na 7 nocí.',
+  title: () => t('pages.cenik.seo.title'),
+  description: () => t('pages.cenik.seo.description'),
 })
 </script>
 
 <template>
   <div>
-    <PageHero title="Ceník" subtitle="Ceny pronájmu chaty se liší v závislosti na sezóně." :image="sectionBanners.cenik" />
+    <PageHero :title="t('pages.cenik.hero.title')" :subtitle="t('pages.cenik.hero.subtitle')" :image="sectionBanners.cenik" />
 
     <section class="mx-auto max-w-3xl px-4 py-20 sm:px-6">
       <PriceTable />
       <PriceNotes />
 
       <div class="mt-10">
-        <BaseButton to="/rezervace">Odeslat rezervační poptávku</BaseButton>
+        <BaseButton :to="localePath('/rezervace')">{{ t('pages.cenik.cta') }}</BaseButton>
       </div>
     </section>
   </div>

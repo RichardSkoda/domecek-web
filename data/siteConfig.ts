@@ -2,7 +2,11 @@ import type { NavLink, SiteConfig } from '~/types/content'
 
 export const siteConfig: SiteConfig = {
   name: 'Domeček Oseček',
-  tagline: 'Užijte si klid a pohodu se zázemím skvěle vybavené chaty',
+  translations: {
+    cs: { tagline: 'Užijte si klid a pohodu se zázemím skvěle vybavené chaty' },
+    en: { tagline: 'Enjoy peace and comfort in a beautifully equipped cottage' },
+    de: { tagline: 'Genießen Sie Ruhe und Komfort in einem bestens ausgestatteten Ferienhaus' },
+  },
   phone: '733 656 261',
   phoneHref: '+420733656261',
   email: 'michal.tauchman@silverdahl.cz',
@@ -20,11 +24,11 @@ export const siteConfig: SiteConfig = {
 }
 
 export const navLinks: NavLink[] = [
-  { label: 'Úvod', to: '/' },
-  { label: 'Zařízení', to: '/sluzby' },
-  { label: 'Fotogalerie', to: '/fotogalerie' },
-  { label: 'Ceník', to: '/cenik' },
-  { label: 'Volné termíny', to: '/obsazenost' },
-  { label: 'Rezervace', to: '/rezervace' },
-  { label: 'Kontakt', to: '/kontakt' },
+  { labelKey: 'nav.home', to: '/' },
+  { labelKey: 'nav.services', to: '/sluzby' },
+  { labelKey: 'nav.gallery', to: '/fotogalerie' },
+  { labelKey: 'nav.pricing', to: '/cenik' },
+  { labelKey: 'nav.availability', to: '/obsazenost' },
+  { labelKey: 'nav.booking', to: '/rezervace' },
+  { labelKey: 'nav.contact', to: '/kontakt' },
 ]

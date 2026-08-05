@@ -1,3 +1,7 @@
+export type Locale = 'cs' | 'en' | 'de'
+
+export type Localized<T> = Record<Locale, T>
+
 export type ImageCategory =
   | 'exterier'
   | 'interier'
@@ -13,7 +17,7 @@ export interface GalleryImage {
   id: string
   /** cesta relativně k /images/gallery/ */
   file: string
-  alt: string
+  translations: Localized<string>
   category: ImageCategory
   width: number
   height: number
@@ -24,7 +28,7 @@ export interface GalleryImage {
 export interface HeroImage {
   id: string
   file: string
-  alt: string
+  translations: Localized<string>
   width: number
   height: number
 }
@@ -32,49 +36,46 @@ export interface HeroImage {
 export interface SectionImage {
   id: string
   file: string
-  alt: string
+  translations: Localized<string>
   width: number
   height: number
 }
 
 export interface Amenity {
   id: string
-  title: string
-  description: string
+  translations: Localized<{ title: string; description: string }>
   icon: string
 }
 
 export interface EquipmentGroup {
   id: string
-  title: string
-  items: string[]
+  translations: Localized<{ title: string; items: string[] }>
 }
 
 export interface Highlight {
   id: string
-  label: string
+  translations: Localized<string>
   icon: string
 }
 
 export interface SurroundingBlock {
   id: string
-  title: string
-  body: string
+  translations: Localized<{ title: string; body: string }>
   image: SectionImage
 }
 
-export type PriceUnit = 'noc' | '7 nocí'
+export type PriceUnitKey = 'night' | 'week'
 
 export interface PriceRow {
   id: string
-  seasonLabel: string
-  unit: PriceUnit
+  translations: Localized<string>
+  unit: PriceUnitKey
   priceCzk: number
 }
 
 export interface PriceNote {
   id: string
-  text: string
+  translations: Localized<string>
 }
 
 export interface Address {
@@ -85,7 +86,7 @@ export interface Address {
 
 export interface SiteConfig {
   name: string
-  tagline: string
+  translations: Localized<{ tagline: string }>
   phone: string
   phoneHref: string
   email: string
@@ -98,7 +99,7 @@ export interface SiteConfig {
 }
 
 export interface NavLink {
-  label: string
+  labelKey: string
   to: string
 }
 
@@ -120,6 +121,6 @@ export interface ContactFormPayload {
 }
 
 export interface FormSubmitResult {
-  success: boolean
-  message: string
+  success: true
+  code: 'contactSuccess' | 'bookingSuccess'
 }

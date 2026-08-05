@@ -12,11 +12,13 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.9.0",
+    "@nuxtjs/i18n": "^10.6.0",
     "@nuxtjs/seo": "^3.0.3",
     "@vueuse/core": "^12.5.0",
     "@vueuse/nuxt": "^12.5.0",
     "motion-v": "^0.11.0",
     "nuxt": "^3.15.4",
+    "resend": "^6.18.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },

@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "Úvod",
+    "services": "Zařízení",
+    "gallery": "Fotogalerie",
+    "pricing": "Ceník",
+    "availability": "Volné termíny",
+    "booking": "Rezervace",
+    "contact": "Kontakt",
+    "bookingCta": "Rezervace"
+  },
+  "header": {
+    "brandFirst": "Domeček",
+    "brandSecond": "Oseček",
+    "openMenu": "Otevřít menu",
+    "closeMenu": "Zavřít menu",
+    "languageSwitcherLabel": "Přepnout jazyk"
+  },
+  "footer": {
+    "quickLinks": "Rychlé odkazy",
+    "contact": "Kontakt",
+    "instagramHandle": "{'@'}domecek_osecek",
+    "copyright": "© {year} Domeček Oseček. Všechna práva vyhrazena."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Oáza klidu v chatové oblasti",
+      "description": "Plně zařízená zděná a zateplená chata u Labe v klidné chatové oblasti Oseček. Dispozice 3kk pro až 5 osob.",
+      "ctaPrimary": "Zarezervovat pobyt",
+      "ctaSecondary": "Prohlédnout fotogalerii"
+    },
+    "intro": {
+      "eyebrow": "O chatě",
+      "title": "Komfortní zázemí uprostřed přírody",
+      "body1": "Nacházíme se v klidné chatové oblasti u Labe a nabízíme plně zařízenou zděnou a zateplenou chatu pro komfortní ubytování. Chata je dispozice 3kk. V ložnici naleznete manželskou postel 160×200 cm a v pokojíku palandu s postelemi 90×200 cm. V případě potřeby je možné přespat i na gauči v obývacím pokoji.",
+      "body2": "Chata disponuje plně zařízenou kuchyní s lednicí, mrazákem, myčkou, varnou deskou, troubou, mikrovlnkou, kávovarem i vinotékou. Pro tepelný komfort slouží klimatizační jednotka, podlahové vytápění v celé ploše objektu, elektrický přímotop v ložnici i krbová kamna. Úpravna vody zajišťuje pitnou vodu v nejvyšší kvalitě.",
+      "cta": "Ceník pronájmu →"
+    },
+    "highlights": {
+      "eyebrow": "Hlavní výhody",
+      "title": "Vše, co pro pohodlný pobyt potřebujete"
+    },
+    "amenities": {
+      "eyebrow": "Vybavení",
+      "title": "Zařízení chaty",
+      "cta": "Veškeré vybavení →"
+    },
+    "gallery": {
+      "eyebrow": "Galerie",
+      "title": "Podívejte se, jak to u nás vypadá",
+      "cta": "Celá fotogalerie →"
+    },
+    "surroundings": {
+      "eyebrow": "Okolí",
+      "title": "Krásná okolní příroda a klidná atmosféra"
+    },
+    "petsNotice": {
+      "text": "Menší zvířata po dohodě, {bold} nejsou v objektu povoleni.",
+      "bold": "větší domácí mazlíčci (psi, kočky)",
+      "thanks": "Děkujeme za pochopení — snažíme se zachovat čisté a příjemné prostředí pro všechny hosty."
+    },
+    "cta": {
+      "title": "Zaujala Vás naše chata?",
+      "button": "Ozvěte se nám"
+    }
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Domeček Oseček — chata k pronájmu u Labe",
+        "description": "Plně zařízená zděná chata 3kk pro až 5 osob v klidné chatové oblasti Oseček u Labe. Terasa, ohniště, klimatizace a vlastní studna.",
+        "ogDescription": "Oáza klidu v chatové oblasti Oseček. Rezervujte si pobyt v plně zařízené chatě 3kk pro až 5 osob."
+      }
+    },
+    "sluzby": {
+      "seo": {
+        "title": "Zařízení chaty — Domeček Oseček",
+        "description": "Přehled vybavení chaty Domeček Oseček: plně vybavená kuchyň, klimatizace, terasa s grilem, parkování u chaty a další."
+      },
+      "hero": {
+        "title": "Zařízení chaty",
+        "subtitle": "Naše ubytování Vám poskytne zázemí pro strávení příjemného času s rodinou nebo přáteli."
+      },
+      "equipment": {
+        "eyebrow": "Praktické vybavení",
+        "title": "Připraveno pro Váš pohodlný pobyt",
+        "body": "Aby byl Váš pobyt co nejpohodlnější, připravili jsme na chatě běžné vybavení domácnosti. Nemusíte si tak vozit základní hygienické ani úklidové potřeby."
+      }
+    },
+    "fotogalerie": {
+      "seo": {
+        "title": "Fotogalerie — Domeček Oseček",
+        "description": "Fotogalerie chaty Domeček Oseček — interiér, exteriér, terasa i okolní příroda."
+      },
+      "hero": {
+        "title": "Fotogalerie",
+        "subtitle": "Chata je ideálním místem pro rodinnou dovolenou nebo romantický pobyt pro dva. Interiér chaty je moderně a útulně zařízen."
+      }
+    },
+    "cenik": {
+      "seo": {
+        "title": "Ceník — Domeček Oseček",
+        "description": "Sezónní ceník pronájmu chaty Domeček Oseček — cena za noc i zvýhodněná cena při pronájmu na 7 nocí."
+      },
+      "hero": {
+        "title": "Ceník",
+        "subtitle": "Ceny pronájmu chaty se liší v závislosti na sezóně."
+      },
+      "cta": "Odeslat rezervační poptávku"
+    },
+    "obsazenost": {
+      "seo": {
+        "title": "Volné termíny — Domeček Oseček",
+        "description": "Zjistěte aktuální obsazenost chaty Domeček Oseček v kalendáři nebo nás kontaktujte."
+      },
+      "hero": {
+        "title": "Volné termíny"
+      },
+      "contactPrompt": "Pro zjištění aktuální obsazenosti nás prosím {link}.",
+      "contactLinkText": "kontaktujte"
+    },
+    "rezervace": {
+      "seo": {
+        "title": "Rezervace — Domeček Oseček",
+        "description": "Vyplňte rezervační formulář nebo nás kontaktujte telefonicky či e-mailem."
+      },
+      "hero": {
+        "title": "Rezervace",
+        "subtitle": "Pro rezervaci naší rekreační chaty stačí vyplnit rezervační formulář."
+      },
+      "intro": "V rezervačním formuláři uveďte požadovaný termín pobytu, počet osob a další případné požadavky. Po odeslání formuláře Vás budeme kontaktovat ohledně potvrzení rezervace a předání dalších informací.",
+      "phonePrompt": "Raději řešíte věci rychle a ústně? Rezervaci je možné provést také na telefonním čísle {phone}.",
+      "emailPrompt": "Preferujete e-mail? {email}"
+    },
+    "kontakt": {
+      "seo": {
+        "title": "Kontakt — Domeček Oseček",
+        "description": "Kontaktujte nás telefonicky, e-mailem nebo přes formulář. Adresa: {street}, {zip} {city}."
+      },
+      "hero": {
+        "title": "Kontakt",
+        "subtitle": "Pokud máte zájem o pronájem, můžete nás kontaktovat telefonicky, mailem, či přiloženým formulářem."
+      },
+      "formEyebrow": "Formulář",
+      "formTitle": "Napište nám",
+      "instagramText": "Sledujte nás na Instagramu {'@'}domecek_osecek"
+    }
+  },
+  "gallery": {
+    "all": "Vše",
+    "filterAriaLabel": "Filtrovat fotografie podle kategorie",
+    "empty": "V této kategorii zatím nejsou žádné fotografie.",
+    "categories": {
+      "exterier": "Exteriér",
+      "interier": "Interiér",
+      "kuchyne": "Kuchyně",
+      "loznice": "Ložnice",
+      "koupelna": "Koupelna",
+      "terasa": "Terasa",
+      "zahrada": "Zahrada",
+      "okoli": "Okolí",
+      "atmosfera": "Atmosféra"
+    },
+    "lightbox": {
+      "close": "Zavřít",
+      "prev": "Předchozí fotografie",
+      "next": "Další fotografie"
+    }
+  },
+  "pricing": {
+    "table": {
+      "season": "Sezóna",
+      "unit": "Jednotka",
+      "price": "Cena"
+    },
+    "units": {
+      "night": "noc",
+      "week": "7 nocí"
+    }
+  },
+  "availability": {
+    "embedTitle": "Kalendář volných termínů Domeček Oseček",
+    "fallbackNotice": "Kalendář se nenačetl? Prohlížeč mohl zablokovat vložený obsah Google (typicky Firefox s aktivní ochranou proti sledování).",
+    "openInNewWindow": "Otevřít kalendář v novém okně"
+  },
+  "contact": {
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "addressLabel": "Adresa",
+    "mapTitle": "Mapa — Domeček Oseček",
+    "mapFallback": "Mapa se nenačetla?",
+    "mapOpenLink": "Otevřít v Google Mapách"
+  },
+  "forms": {
+    "booking": {
+      "nameLabel": "Jméno a příjmení",
+      "phoneLabel": "Telefonní číslo",
+      "emailLabel": "E-mail",
+      "datesLabel": "Poptávaný termín",
+      "guestsLabel": "Počet osob",
+      "messageLabel": "Zpráva (nepovinné)",
+      "submit": "Odeslat poptávku",
+      "submitting": "Odesílám…"
+    },
+    "contact": {
+      "nameLabel": "Jméno a příjmení",
+      "emailLabel": "E-mail",
+      "messageLabel": "Zpráva",
+      "submit": "Odeslat zprávu",
+      "submitting": "Odesílám…"
+    },
+    "gdpr": {
+      "label": "Souhlasím se zpracováním osobních údajů za účelem vyřízení mého požadavku."
+    },
+    "errors": {
+      "missingFields": "Vyplňte prosím všechna povinná pole.",
+      "serverError": "Odeslání se nezdařilo, zkuste to prosím znovu."
+    },
+    "success": {
+      "contactSuccess": "Děkujeme za Vaši zprávu, ozveme se Vám co nejdříve.",
+      "bookingSuccess": "Děkujeme za Vaši poptávku, ozveme se Vám s potvrzením rezervace."
+    }
+  }
+}

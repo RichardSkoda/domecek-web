@@ -1,17 +1,6 @@
 import type { ImageCategory } from '~/types/content'
 
-export const galleryCategoryLabels: Record<ImageCategory, string> = {
-  exterier: 'Exteriér',
-  interier: 'Interiér',
-  kuchyne: 'Kuchyně',
-  loznice: 'Ložnice',
-  koupelna: 'Koupelna',
-  terasa: 'Terasa',
-  zahrada: 'Zahrada',
-  okoli: 'Okolí',
-  atmosfera: 'Atmosféra',
-}
-
+/** Zobrazované popisky se řeší přes i18n klíč `gallery.categories.<kategorie>`. */
 export const galleryCategoryOrder: ImageCategory[] = [
   'exterier',
   'interier',

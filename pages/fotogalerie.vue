@@ -3,9 +3,13 @@ import type { ImageCategory } from '~/types/content'
 import { galleryImages } from '~/data/gallery'
 import { sectionBanners } from '~/data/media'
 
+const { t } = useI18n()
+
+definePageMeta({ i18n: { paths: { en: '/gallery', de: '/galerie' } } })
+
 useSeoMeta({
-  title: 'Fotogalerie — Domeček Oseček',
-  description: 'Fotogalerie chaty Domeček Oseček — interiér, exteriér, terasa i okolní příroda.',
+  title: () => t('pages.fotogalerie.seo.title'),
+  description: () => t('pages.fotogalerie.seo.description'),
 })
 
 const activeCategory = ref<ImageCategory | 'vse'>('vse')
@@ -28,8 +32,8 @@ const counts = computed(() => {
 <template>
   <div>
     <PageHero
-      title="Fotogalerie"
-      subtitle="Chata je ideálním místem pro rodinnou dovolenou nebo romantický pobyt pro dva. Interiér chaty je moderně a útulně zařízen."
+      :title="t('pages.fotogalerie.hero.title')"
+      :subtitle="t('pages.fotogalerie.hero.subtitle')"
       :image="sectionBanners.fotogalerie"
     />
 

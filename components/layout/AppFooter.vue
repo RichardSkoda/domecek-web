@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import { navLinks, siteConfig } from '~/data/siteConfig'
+
+const { t } = useI18n()
+const localePath = useLocalePath()
+const { tr } = useTranslated()
 </script>
 
 <template>
@@ -7,7 +11,7 @@ import { navLinks, siteConfig } from '~/data/siteConfig'
     <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
       <div>
         <p class="font-display text-lg font-semibold text-ink-900">Domeček Oseček</p>
-        <p class="mt-3 max-w-xs text-sm text-ink-700">{{ siteConfig.tagline }}</p>
+        <p class="mt-3 max-w-xs text-sm text-ink-700">{{ tr(siteConfig.translations).tagline }}</p>
         <a
           :href="siteConfig.instagramUrl"
           target="_blank"
@@ -19,21 +23,21 @@ import { navLinks, siteConfig } from '~/data/siteConfig'
             <circle cx="12" cy="12" r="4" />
             <circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" />
           </svg>
-          @domecek_osecek
+          {{ t('footer.instagramHandle') }}
         </a>
       </div>
 
       <div>
-        <p class="text-sm font-semibold text-ink-900">Rychlé odkazy</p>
+        <p class="text-sm font-semibold text-ink-900">{{ t('footer.quickLinks') }}</p>
         <ul class="mt-3 space-y-2">
           <li v-for="link in navLinks" :key="link.to">
-            <NuxtLink :to="link.to" class="text-sm text-ink-700 hover:text-forest-700">{{ link.label }}</NuxtLink>
+            <NuxtLink :to="localePath(link.to)" class="text-sm text-ink-700 hover:text-forest-700">{{ t(link.labelKey) }}</NuxtLink>
           </li>
         </ul>
       </div>
 
       <div>
-        <p class="text-sm font-semibold text-ink-900">Kontakt</p>
+        <p class="text-sm font-semibold text-ink-900">{{ t('footer.contact') }}</p>
         <ul class="mt-3 space-y-2 text-sm text-ink-700">
           <li>{{ siteConfig.address.street }}, {{ siteConfig.address.zip }} {{ siteConfig.address.city }}</li>
           <li>
@@ -47,7 +51,7 @@ import { navLinks, siteConfig } from '~/data/siteConfig'
     </div>
 
     <div class="border-t border-sand-200 px-4 py-6 text-center text-xs text-ink-700/70 sm:px-6">
-      © {{ new Date().getFullYear() }} Domeček Oseček. Všechna práva vyhrazena.
+      {{ t('footer.copyright', { year: new Date().getFullYear() }) }}
     </div>
   </footer>
 </template>

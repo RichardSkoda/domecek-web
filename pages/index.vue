@@ -1,10 +1,11 @@
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'Domeček Oseček — chata k pronájmu u Labe',
-  description:
-    'Plně zařízená zděná chata 3kk pro až 5 osob v klidné chatové oblasti Oseček u Labe. Terasa, ohniště, klimatizace a vlastní studna.',
-  ogTitle: 'Domeček Oseček — chata k pronájmu u Labe',
-  ogDescription: 'Oáza klidu v chatové oblasti Oseček. Rezervujte si pobyt v plně zařízené chatě 3kk pro až 5 osob.',
+  title: () => t('pages.home.seo.title'),
+  description: () => t('pages.home.seo.description'),
+  ogTitle: () => t('pages.home.seo.title'),
+  ogDescription: () => t('pages.home.seo.ogDescription'),
   ogImage: '/images/hero/fotogalerie-037.webp',
 })
 </script>

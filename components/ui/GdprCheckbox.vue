@@ -1,6 +1,8 @@
 <script setup lang="ts">
 defineProps<{ modelValue: boolean; id: string }>()
 defineEmits<{ 'update:modelValue': [boolean] }>()
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -14,7 +16,7 @@ defineEmits<{ 'update:modelValue': [boolean] }>()
       @change="$emit('update:modelValue', ($event.target as HTMLInputElement).checked)"
     />
     <label :for="id" class="text-sm text-ink-700">
-      Souhlasím se zpracováním osobních údajů za účelem vyřízení mého požadavku.<span class="text-clay-500"> *</span>
+      {{ t('forms.gdpr.label') }}<span class="text-clay-500"> *</span>
     </label>
   </div>
 </template>
