@@ -7,8 +7,12 @@ export default defineEventHandler(async (event): Promise<FormSubmitResult> => {
     throw createError({ statusCode: 400, statusMessage: 'missingFields', data: { code: 'missingFields' } })
   }
 
-  // TODO: napojit reálné odesílání e-mailu (SMTP / e-mailová služba) — zatím pouze přijmeme a potvrdíme zprávu.
-  console.log('[kontakt] nová zpráva:', body)
+  try {
+    await sendContactEmail(body)
+  } catch (error) {
+    console.error('[kontakt] odeslání e-mailu selhalo:', error)
+    throw createError({ statusCode: 502, statusMessage: 'serverError', data: { code: 'serverError' } })
+  }
 
   return {
     success: true,

@@ -28,6 +28,17 @@ export default defineNuxtConfig({
     strict: true,
   },
 
+  runtimeConfig: {
+    // NUXT_RESEND_API_KEY — API klíč z https://resend.com. Dokud není nastaven,
+    // formuláře jen zalogují odeslaná data na server (e-mail se neposílá).
+    resendApiKey: '',
+    // NUXT_EMAIL_FROM — odesílatel. Bez ověřené vlastní domény v Resendu je nutné
+    // nechat výchozí sdílenou doménu (funguje jen pro doručení na emailTo níže).
+    emailFrom: 'Domeček Oseček <onboarding@resend.dev>',
+    // NUXT_EMAIL_TO — kam chodí notifikace z rezervačního a kontaktního formuláře.
+    emailTo: 'michal.tauchman@silverdahl.cz',
+  },
+
   i18n: {
     locales: [
       { code: 'cs', language: 'cs-CZ', name: 'Čeština', file: 'cs.json' },
