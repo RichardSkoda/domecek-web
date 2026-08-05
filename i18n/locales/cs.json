@@ -199,6 +199,8 @@
       "datesLabel": "Poptávaný termín",
       "datesPlaceholder": "Vyberte termín příjezdu a odjezdu",
       "datesConflict": "Zvolený termín je bohužel obsazený. Zkuste prosím jiné datum, nebo se podívejte na volné termíny.",
+      "datesSelect": "Vybrat",
+      "datesCancel": "Zrušit",
       "guestsLabel": "Počet osob",
       "messageLabel": "Zpráva (nepovinné)",
       "submit": "Odeslat poptávku",

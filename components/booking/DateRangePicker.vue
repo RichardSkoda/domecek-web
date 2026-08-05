@@ -73,6 +73,7 @@ defineExpose({ hasConflict: computed(() => conflict.value) })
       :multi-calendars="2"
       :locale="dateFnsLocale"
       :formats="{ input: formatInputValue }"
+      :action-row="{ selectBtnLabel: t('forms.booking.datesSelect'), cancelBtnLabel: t('forms.booking.datesCancel') }"
       :placeholder="t('forms.booking.datesPlaceholder')"
     />
     <p v-if="conflict" class="mt-2 text-sm font-medium text-clay-600">{{ t('forms.booking.datesConflict') }}</p>

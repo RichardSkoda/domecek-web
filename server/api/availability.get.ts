@@ -12,6 +12,7 @@ export default defineCachedEventHandler(
       ranges.push({
         start: new Date(component.start).toISOString(),
         end: new Date(component.end).toISOString(),
+        dateOnly: !!component.end.dateOnly,
       })
     }
     return ranges

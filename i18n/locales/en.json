@@ -199,6 +199,8 @@
       "datesLabel": "Requested dates",
       "datesPlaceholder": "Select your arrival and departure dates",
       "datesConflict": "Unfortunately, the selected dates are already booked. Please try different dates, or check availability.",
+      "datesSelect": "Select",
+      "datesCancel": "Cancel",
       "guestsLabel": "Number of guests",
       "messageLabel": "Message (optional)",
       "submit": "Send request",

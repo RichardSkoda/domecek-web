@@ -129,4 +129,6 @@ export interface FormSubmitResult {
 export interface BusyRange {
   start: string
   end: string
+  /** Celodenní událost v iCal (DTEND je už exkluzivní) vs. časovaná rezervace (DTEND je skutečný okamžik odjezdu). */
+  dateOnly: boolean
 }
