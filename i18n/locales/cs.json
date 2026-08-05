@@ -197,6 +197,8 @@
       "phoneLabel": "Telefonní číslo",
       "emailLabel": "E-mail",
       "datesLabel": "Poptávaný termín",
+      "datesPlaceholder": "Vyberte termín příjezdu a odjezdu",
+      "datesConflict": "Zvolený termín je bohužel obsazený. Zkuste prosím jiné datum, nebo se podívejte na volné termíny.",
       "guestsLabel": "Počet osob",
       "messageLabel": "Zpráva (nepovinné)",
       "submit": "Odeslat poptávku",

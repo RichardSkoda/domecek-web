@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
 
-  css: ['~/assets/css/main.css'],
+  css: ['@vuepic/vue-datepicker/dist/main.css', '~/assets/css/main.css'],
 
   components: [{ path: '~/components', pathPrefix: false }],
 

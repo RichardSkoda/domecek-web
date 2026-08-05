@@ -18,6 +18,8 @@ export const siteConfig: SiteConfig = {
   instagramUrl: 'https://www.instagram.com/domecek_osecek?igsh=dGMxdml3anVod3A2',
   googleCalendarEmbedUrl:
     'https://calendar.google.com/calendar/u/0/newembed?src=9725ef8ef4ca211ec2f135454293ff9c335a630224577534f19d7d575209d3a4@group.calendar.google.com&ctz=Europe/Prague',
+  googleCalendarIcsUrl:
+    'https://calendar.google.com/calendar/ical/9725ef8ef4ca211ec2f135454293ff9c335a630224577534f19d7d575209d3a4%40group.calendar.google.com/public/basic.ics',
   googleMapsEmbedUrl:
     'https://www.google.com/maps?q=Ose%C4%8Dek%20206%2C%20289%2041%20Ose%C4%8Dek&output=embed',
   googleMapsUrl: 'https://www.google.com/maps?q=Ose%C4%8Dek%20206%2C%20289%2041%20Ose%C4%8Dek',

@@ -17,3 +17,45 @@
     @apply font-display;
   }
 }
+
+/* @vuepic/vue-datepicker theme. Targets .dp--theme-light (not :root): the library
+   redefines these custom properties on its own root element, and a same-element
+   declaration always wins over an inherited :root value regardless of source order. */
+.dp--theme-light {
+  --dp-font-family: 'Inter', sans-serif;
+  --dp-border-radius: 0.75rem;
+  --dp-cell-border-radius: 0.5rem;
+  --dp-background-color: #fdfbf7;
+  --dp-text-color: #2a2721;
+  --dp-hover-color: #e1e8dc;
+  --dp-hover-text-color: #22301c;
+  --dp-hover-icon-color: #384c2f;
+  --dp-primary-color: #384c2f;
+  --dp-primary-text-color: #fdfbf7;
+  --dp-secondary-color: #8f6a47;
+  --dp-border-color: #e9dabf;
+  --dp-menu-border-color: #e9dabf;
+  --dp-border-color-hover: #46603a;
+  --dp-disabled-color: #f3ead9;
+  --dp-disabled-color-text: #c9a473;
+  --dp-scroll-bar-background: #f3ead9;
+  --dp-scroll-bar-color: #c9a473;
+  --dp-success-color: #46603a;
+  --dp-success-color-disabled: #9fb591;
+  --dp-icon-color: #8f6a47;
+  --dp-danger-color: #a85f3b;
+  --dp-marker-color: #a85f3b;
+  --dp-tooltip-color: #faf6ee;
+  --dp-highlight-color: rgba(56, 76, 47, 0.12);
+  --dp-range-between-dates-background-color: #e1e8dc;
+  --dp-range-between-dates-text-color: #22301c;
+  --dp-range-between-border-color: #9fb591;
+}
+
+.dp--input {
+  @apply w-full rounded-lg border border-sand-300 bg-sand-50 px-4 py-2.5 text-sm text-ink-900 shadow-sm;
+}
+
+.dp--input:focus {
+  @apply border-forest-600 outline-none ring-1 ring-forest-600;
+}

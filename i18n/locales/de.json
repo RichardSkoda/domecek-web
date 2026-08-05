@@ -197,6 +197,8 @@
       "phoneLabel": "Telefonnummer",
       "emailLabel": "E-Mail",
       "datesLabel": "Gewünschter Zeitraum",
+      "datesPlaceholder": "Wählen Sie An- und Abreisedatum",
+      "datesConflict": "Der gewählte Zeitraum ist leider bereits ausgebucht. Bitte wählen Sie einen anderen Zeitraum oder prüfen Sie die Verfügbarkeit.",
       "guestsLabel": "Anzahl der Personen",
       "messageLabel": "Nachricht (optional)",
       "submit": "Anfrage senden",

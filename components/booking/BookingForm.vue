@@ -2,6 +2,9 @@
 const { pending, result, resultMessage, errorMessage, submit } = useBookingForm()
 const { t } = useI18n()
 
+const dateRangeRef = ref<{ hasConflict: boolean } | null>(null)
+const formError = ref<string | null>(null)
+
 const form = reactive({
   name: '',
   phone: '',
@@ -13,6 +16,13 @@ const form = reactive({
 })
 
 async function onSubmit() {
+  formError.value = null
+
+  if (!form.dateRange || dateRangeRef.value?.hasConflict) {
+    formError.value = t('forms.errors.missingFields')
+    return
+  }
+
   await submit({ ...form })
   if (result.value?.success) {
     form.name = ''
@@ -35,10 +45,9 @@ async function onSubmit() {
 
     <BaseField id="booking-email" v-model="form.email" type="email" :label="t('forms.booking.emailLabel')" required />
 
-    <div class="grid gap-5 sm:grid-cols-2">
-      <BaseField id="booking-dates" v-model="form.dateRange" :label="t('forms.booking.datesLabel')" required />
-      <BaseField id="booking-guests" v-model="form.guests" type="number" :label="t('forms.booking.guestsLabel')" required />
-    </div>
+    <DateRangePicker ref="dateRangeRef" v-model="form.dateRange" :label="t('forms.booking.datesLabel')" required />
+
+    <BaseField id="booking-guests" v-model="form.guests" type="number" :label="t('forms.booking.guestsLabel')" required />
 
     <BaseField id="booking-message" v-model="form.message" as="textarea" :label="t('forms.booking.messageLabel')" />
 
@@ -49,7 +58,7 @@ async function onSubmit() {
         {{ pending ? t('forms.booking.submitting') : t('forms.booking.submit') }}
       </BaseButton>
       <p v-if="result?.success" class="text-sm font-medium text-forest-700">{{ resultMessage }}</p>
-      <p v-else-if="errorMessage" class="text-sm font-medium text-clay-600">{{ errorMessage }}</p>
+      <p v-else-if="formError || errorMessage" class="text-sm font-medium text-clay-600">{{ formError || errorMessage }}</p>
     </div>
   </form>
 </template>

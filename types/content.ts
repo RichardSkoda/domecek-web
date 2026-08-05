@@ -93,6 +93,7 @@ export interface SiteConfig {
   address: Address
   instagramUrl: string
   googleCalendarEmbedUrl: string
+  googleCalendarIcsUrl: string
   googleMapsEmbedUrl: string
   googleMapsUrl: string
   contactPersonNote?: string
@@ -123,4 +124,9 @@ export interface ContactFormPayload {
 export interface FormSubmitResult {
   success: true
   code: 'contactSuccess' | 'bookingSuccess'
+}
+
+export interface BusyRange {
+  start: string
+  end: string
 }
