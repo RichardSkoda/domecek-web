@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(node \"c:\\\\temp\\\\claude\\\\c--Users-richard-skoda-Documents-Python-Web-course-Vue3-course-domecek-scraper\\\\b22728a6-f500-4cff-8668-d9e86a665629\\\\scratchpad\\\\screenshot.js\")",
+      "Bash(cp \"c:\\\\temp\\\\claude\\\\c--Users-richard-skoda-Documents-Python-Web-course-Vue3-course-domecek-scraper\\\\b22728a6-f500-4cff-8668-d9e86a665629\\\\scratchpad\\\\screenshot.js\" \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/_screenshot_tmp.js\")",
+      "Bash(node _screenshot_tmp.js)",
+      "Bash(grep -E \"\\\\.png$\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"http://localhost:3000/images/hero/fotogalerie-037.webp\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"http://localhost:3000/_ipx/_/images/hero/fotogalerie-037.webp\")",
+      "Bash(curl -s \"http://localhost:3000/\")",
+      "Bash(node -e \"console.log\\(require\\('@nuxt/image/package.json'\\).version\\)\")",
+      "Bash(cp \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/web/_scroll_test.js\" \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/_scroll_test.js\")",
+      "Bash(node _scroll_test.js)",
+      "Bash(rm -f _screenshot_tmp.js _scroll_test.js desktop-*.png mobile-*.png gallery-lightbox.png scroll-test-home.png)",
+      "Bash(rm -f web/_scroll_test.js)",
+      "Bash(grep -E \"\\\\.png$|_tmp|_test\")",
+      "Bash(timeout 30 bash -c 'until curl -sf http://localhost:3000/ >/dev/null; do sleep 1; done')",
+      "Bash(cp \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/web/_nav_check.js\" \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/_nav_check.js\")",
+      "Bash(node _nav_check.js)",
+      "Bash(rm -f _nav_check.js web/_nav_check.js nav-check-*.png)",
+      "Bash(taskkill //PID 27720 //F)",
+      "Bash(timeout 30 bash -c 'until curl -sf http://localhost:3000/kontakt >/dev/null; do sleep 1; done')",
+      "Bash(cp \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/web/_check.js\" \"c:/Users/richard.skoda/Documents/Python/Web_course/Vue3_course/domecek-scraper/_check.js\")",
+      "Bash(node _check.js)"
+    ]
+  }
+}
