@@ -2,7 +2,7 @@ import type { HeroImage, SectionImage } from '~/types/content'
 
 export const homeHero: HeroImage = {
   id: 'hero-home',
-  file: 'fotogalerie-037.webp',
+  file: 'home-001.webp',
   translations: {
     cs: 'Chata Domeček Oseček za zlaté hodiny s krytou terasou',
     en: 'Domeček Oseček cottage at golden hour with a covered terrace',
