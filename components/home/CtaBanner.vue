@@ -15,7 +15,7 @@ const { tr } = useTranslated()
       :width="image.width"
       :height="image.height"
       class="absolute inset-0 h-full w-full object-cover"
-      sizes="sm:100vw"
+      sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
       loading="lazy"
     />
     <div class="absolute inset-0 bg-ink-900/60" />

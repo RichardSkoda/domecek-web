@@ -16,7 +16,7 @@ const { tr } = useTranslated()
         :width="homeHero.width"
         :height="homeHero.height"
         class="absolute inset-0 h-full w-full object-cover"
-        sizes="sm:100vw"
+        sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
         loading="eager"
         fetchpriority="high"
         preload

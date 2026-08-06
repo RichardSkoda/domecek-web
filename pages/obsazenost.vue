@@ -14,7 +14,7 @@ useSeoMeta({
 
 <template>
   <div>
-    <PageHero :title="t('pages.obsazenost.hero.title')" :image="sectionBanners.obsazenost" />
+    <PageHero :title="t('pages.obsazenost.hero.title')" :image="sectionBanners.obsazenost" image-position-y="80%" />
 
     <section class="mx-auto max-w-4xl px-4 py-20 sm:px-6">
       <CalendarEmbed />

@@ -23,7 +23,7 @@ export const sectionBanners: Record<string, SectionImage> = {
       de: 'Helles Wohnzimmer mit Sitzgelegenheit',
     },
     width: 1920,
-    height: 1080,
+    height: 1081,
   },
   sluzby: {
     id: 'sluzby-017',
@@ -56,7 +56,7 @@ export const sectionBanners: Record<string, SectionImage> = {
       de: 'Ferienhaus mit überdachter Terrasse und gepflegtem Garten',
     },
     width: 1920,
-    height: 1080,
+    height: 1081,
   },
   obsazenost: {
     id: 'fotogalerie-041',
@@ -77,8 +77,8 @@ export const sectionBanners: Record<string, SectionImage> = {
       en: 'Aerial view of the Elbe river near Oseček',
       de: 'Luftaufnahme der Elbe bei Oseček',
     },
-    width: 1800,
-    height: 1012,
+    width: 1600,
+    height: 900,
   },
   kontakt: {
     id: 'home-002',

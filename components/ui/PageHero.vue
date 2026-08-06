@@ -2,11 +2,16 @@
 import type { SectionImage } from '~/types/content'
 import { sectionImageUrl } from '~/data/media'
 
-const props = defineProps<{
-  title: string
-  subtitle?: string
-  image: SectionImage
-}>()
+const props = withDefaults(
+  defineProps<{
+    title: string
+    subtitle?: string
+    image: SectionImage
+    /** Svislá pozice ořezu, např. '50%' (střed), '0%' (nahoře), '100%' (dole), nebo libovolná hodnota mezi. */
+    imagePositionY?: string
+  }>(),
+  { imagePositionY: '50%' },
+)
 
 const { tr } = useTranslated()
 </script>
@@ -20,7 +25,8 @@ const { tr } = useTranslated()
         :width="props.image.width"
         :height="props.image.height"
         class="absolute inset-0 h-full w-full object-cover"
-        sizes="sm:100vw"
+        :style="{ objectPosition: `50% ${props.imagePositionY}` }"
+        sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
         loading="eager"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-ink-900/30 to-transparent" />

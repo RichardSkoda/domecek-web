@@ -54,8 +54,8 @@ export const surroundings: SurroundingBlock[] = [
         en: 'Aerial view of the Elbe river near Oseček',
         de: 'Luftaufnahme der Elbe bei Oseček',
       },
-      width: 1800,
-      height: 1012,
+      width: 1600,
+      height: 900,
     },
   },
   {
@@ -83,7 +83,7 @@ export const surroundings: SurroundingBlock[] = [
         de: 'Abendliches Beisammensein an der Feuerstelle',
       },
       width: 1920,
-      height: 1080,
+      height: 1081,
     },
   },
 ]
