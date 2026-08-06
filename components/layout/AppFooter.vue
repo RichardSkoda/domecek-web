@@ -4,6 +4,7 @@ import { navLinks, siteConfig } from '~/data/siteConfig'
 const { t } = useI18n()
 const localePath = useLocalePath()
 const { tr } = useTranslated()
+const { reset: resetCookieConsent } = useCookieConsent()
 </script>
 
 <template>
@@ -52,6 +53,9 @@ const { tr } = useTranslated()
 
     <div class="border-t border-sand-200 px-4 py-6 text-center text-xs text-ink-700/70 sm:px-6">
       {{ t('footer.copyright', { year: new Date().getFullYear() }) }}
+      <button type="button" class="ml-2 underline hover:text-forest-700" @click="resetCookieConsent">
+        {{ t('cookies.manage') }}
+      </button>
     </div>
   </footer>
 </template>

@@ -9,6 +9,15 @@
     "contact": "Contact",
     "bookingCta": "Booking"
   },
+  "cookies": {
+    "title": "Cookie consent",
+    "message": "This website uses cookies from Google Maps and Google Calendar to show you the map and availability. These won't load without your consent.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "mapBlocked": "The map is hidden until you allow Google Maps cookies.",
+    "calendarBlocked": "The calendar is hidden until you allow Google Calendar cookies.",
+    "manage": "Cookie settings"
+  },
   "header": {
     "brandFirst": "Domeček",
     "brandSecond": "Oseček",

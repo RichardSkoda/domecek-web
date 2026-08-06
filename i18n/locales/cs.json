@@ -9,6 +9,15 @@
     "contact": "Kontakt",
     "bookingCta": "Rezervace"
   },
+  "cookies": {
+    "title": "Souhlas s cookies",
+    "message": "Tento web používá cookies od Google Map a Google Kalendáře, abychom vám mohli zobrazit mapu a dostupné termíny. Bez vašeho souhlasu se tyto prvky nenačtou.",
+    "accept": "Přijmout",
+    "reject": "Odmítnout",
+    "mapBlocked": "Mapa je skrytá, dokud nepovolíte cookies od Google Map.",
+    "calendarBlocked": "Kalendář je skrytý, dokud nepovolíte cookies od Google Kalendáře.",
+    "manage": "Nastavení cookies"
+  },
   "header": {
     "brandFirst": "Domeček",
     "brandSecond": "Oseček",
