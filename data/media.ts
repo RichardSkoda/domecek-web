@@ -8,8 +8,8 @@ export const homeHero: HeroImage = {
     en: 'Domeček Oseček cottage at golden hour with a covered terrace',
     de: 'Ferienhaus Domeček Oseček zur goldenen Stunde mit überdachter Terrasse',
   },
-  width: 1920,
-  height: 1080,
+  width: 3840,
+  height: 2160,
 }
 
 /** Menší banner obrázky pro hlavičky podstránek (public/images/sections/). */
@@ -22,8 +22,8 @@ export const sectionBanners: Record<string, SectionImage> = {
       en: 'Bright living room with seating',
       de: 'Helles Wohnzimmer mit Sitzgelegenheit',
     },
-    width: 1920,
-    height: 1081,
+    width: 3840,
+    height: 2161,
   },
   sluzby: {
     id: 'sluzby-017',
@@ -55,8 +55,8 @@ export const sectionBanners: Record<string, SectionImage> = {
       en: 'The cottage with a covered terrace and landscaped garden',
       de: 'Ferienhaus mit überdachter Terrasse und gepflegtem Garten',
     },
-    width: 1920,
-    height: 1081,
+    width: 3840,
+    height: 2161,
   },
   obsazenost: {
     id: 'fotogalerie-041',
@@ -66,8 +66,8 @@ export const sectionBanners: Record<string, SectionImage> = {
       en: 'View of the surrounding meadows and forest',
       de: 'Blick auf die umliegenden Wiesen und den Wald',
     },
-    width: 1920,
-    height: 1080,
+    width: 3840,
+    height: 2160,
   },
   rezervace: {
     id: 'home-005',
@@ -88,8 +88,8 @@ export const sectionBanners: Record<string, SectionImage> = {
       en: 'View of the cottage from the garden',
       de: 'Blick auf das Ferienhaus vom Garten aus',
     },
-    width: 1920,
-    height: 1080,
+    width: 3840,
+    height: 2160,
   },
 }
 

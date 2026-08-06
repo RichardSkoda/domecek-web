@@ -26,8 +26,8 @@ export const surroundings: SurroundingBlock[] = [
         en: 'Forest path near the cottage in autumn',
         de: 'Waldweg in der Nähe des Ferienhauses im Herbst',
       },
-      width: 1920,
-      height: 1080,
+      width: 3840,
+      height: 2160,
     },
   },
   {
@@ -82,8 +82,8 @@ export const surroundings: SurroundingBlock[] = [
         en: 'Evening gathering by the fire pit',
         de: 'Abendliches Beisammensein an der Feuerstelle',
       },
-      width: 1920,
-      height: 1081,
+      width: 3840,
+      height: 2161,
     },
   },
 ]
