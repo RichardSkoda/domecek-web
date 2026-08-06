@@ -129,6 +129,6 @@ export interface FormSubmitResult {
 export interface BusyRange {
   start: string
   end: string
-  /** Celodenní událost v iCal (DTEND je už exkluzivní) vs. časovaná rezervace (DTEND je skutečný okamžik odjezdu). */
+  /** Celodenní událost (Google Kalendář k vybranému dni odjezdu při ukládání vždy přičte den navíc). */
   dateOnly: boolean
 }

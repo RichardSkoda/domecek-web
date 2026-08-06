@@ -8,18 +8,15 @@ export function useAvailability() {
   const { data } = useFetch<BusyRange[]>('/api/availability', { default: () => [] })
 
   /**
-   * Celodenní (all-day) události mají DTEND v iCal už exkluzivní (Google Kalendář ho tak ukládá
-   * automaticky – den odjezdu do rozsahu nepatří). U časovaných rezervací DTEND naopak označuje
-   * skutečný okamžik odjezdu ten samý den, a protože nechceme stěhování ve stejný den, počítáme
-   * je jako obsazené až do půlnoci (den odjezdu se tím efektivně taky zablokuje).
+   * DTEND je v kalendáři exkluzivní – den odjezdu je volný pro nový příjezd (běžné stěhování
+   * ve stejný den). U celodenních událostí (vytvořených výběrem "od–do" v Google Kalendáři)
+   * Google k zvolenému dni odjezdu při uložení automaticky přičte den navíc, takže je potřeba
+   * ho o jeden den vrátit zpět. U časovaných rezervací (s konkrétním časem) k tomu nedochází.
    */
   const busyRanges = computed(() =>
     (data.value ?? []).map((range) => {
       const end = new Date(range.end)
-      if (!range.dateOnly) {
-        end.setDate(end.getDate() + 1)
-        end.setHours(0, 0, 0, 0)
-      }
+      if (range.dateOnly) end.setDate(end.getDate() - 1)
       return { start: new Date(range.start), end }
     }),
   )
