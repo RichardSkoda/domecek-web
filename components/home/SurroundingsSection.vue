@@ -31,7 +31,6 @@ const { tr } = useTranslated()
               loading="lazy"
             />
             <div class="p-6">
-              <p class="text-sm font-medium text-sand-200/80">{{ index + 1 }}.</p>
               <h3 class="mt-1 font-display text-xl font-semibold text-sand-50">{{ tr(block.translations).title }}</h3>
               <p class="mt-3 text-sm leading-relaxed text-sand-100/80">{{ tr(block.translations).body }}</p>
             </div>

@@ -37,8 +37,8 @@ export const sectionBanners: Record<string, SectionImage> = {
     height: 1080,
   },
   fotogalerie: {
-    id: 'sluzby-015',
-    file: 'sluzby-015.webp',
+    id: 'fotogalerie-050',
+    file: 'fotogalerie-050.webp',
     translations: {
       cs: 'Chata s pergolou při pohledu ze zahrady',
       en: 'The cottage with a pergola, seen from the garden',
@@ -91,6 +91,19 @@ export const sectionBanners: Record<string, SectionImage> = {
     width: 3840,
     height: 2160,
   },
+}
+
+/** Grafický odznak "Sledujte nás na Instagramu" (public/images/sections/). */
+export const instagramBadge: SectionImage = {
+  id: 'home-014',
+  file: 'instagram-badge.webp',
+  translations: {
+    cs: 'Sledujte nás na Instagramu @domecek_osecek',
+    en: 'Follow us on Instagram @domecek_osecek',
+    de: 'Folgen Sie uns auf Instagram @domecek_osecek',
+  },
+  width: 1186,
+  height: 319,
 }
 
 export function sectionImageUrl(image: SectionImage) {

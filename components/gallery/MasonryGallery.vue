@@ -5,7 +5,6 @@ import { galleryImageUrl } from '~/data/gallery'
 const props = defineProps<{ images: GalleryImage[] }>()
 
 const { t } = useI18n()
-const { tr } = useTranslated()
 
 const activeIndex = ref<number | null>(null)
 
@@ -32,7 +31,7 @@ function close() {
       >
         <NuxtImg
           :src="galleryImageUrl(image)"
-          :alt="tr(image.translations)"
+          :alt="t(`gallery.categories.${image.category}`)"
           :width="image.width"
           :height="image.height"
           class="w-full object-cover transition-transform duration-300 hover:scale-105"

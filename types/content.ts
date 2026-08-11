@@ -17,7 +17,6 @@ export interface GalleryImage {
   id: string
   /** cesta relativně k /images/gallery/ */
   file: string
-  translations: Localized<string>
   category: ImageCategory
   width: number
   height: number

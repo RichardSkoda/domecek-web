@@ -10,7 +10,7 @@ export const highlights: Highlight[] = [
   {
     id: 'kapacita',
     icon: 'users',
-    translations: { cs: 'Ubytování až pro 5 osob', en: 'Accommodation for up to 5 people', de: 'Unterkunft für bis zu 5 Personen' },
+    translations: { cs: 'Ubytování až pro 4 osob', en: 'Accommodation for up to 5 people', de: 'Unterkunft für bis zu 5 Personen' },
   },
   {
     id: 'kuchyn',
@@ -42,6 +42,15 @@ export const highlights: Highlight[] = [
       cs: 'Televize, Wifi a vestavěné bluetooth reproduktory',
       en: 'TV, wifi and built-in Bluetooth speakers',
       de: 'Fernseher, WLAN und eingebaute Bluetooth-Lautsprecher',
+    },
+  },
+    {
+    id: 'laundry',
+    icon: 'washing-machine',
+    translations: {
+      cs: 'Pračka se sušičkou',
+      en: 'Washing machine with dryer',
+      de: 'Waschmaschine mit Trockner',
     },
   },
   {

@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-6xl px-4 sm:px-6">
+  <section class="mx-auto max-w-6xl px-4 pb-12 sm:px-6">
     <div class="rounded-xl2 border border-sand-200 bg-sand-100/70 p-6 text-sm text-ink-700">
       <i18n-t keypath="home.petsNotice.text" tag="p" scope="global">
         <template #bold>

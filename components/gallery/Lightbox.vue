@@ -13,10 +13,9 @@ const emit = defineEmits<{
 }>()
 
 const { t } = useI18n()
-const { tr } = useTranslated()
 
 const current = computed(() => props.images[props.index])
-const currentAlt = computed(() => tr(current.value.translations))
+const currentAlt = computed(() => t(`gallery.categories.${current.value.category}`))
 
 function next() {
   emit('update:index', (props.index + 1) % props.images.length)

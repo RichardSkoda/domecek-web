@@ -34,7 +34,7 @@
   "home": {
     "hero": {
       "eyebrow": "Eine Oase der Ruhe im Ferienhausgebiet",
-      "description": "Ein voll ausgestattetes, gedämmtes Ferienhaus aus Ziegelstein am Fluss Elbe im ruhigen Ferienhausgebiet Oseček. Aufteilung 3kk für bis zu 5 Personen.",
+      "description": "Ein voll ausgestattetes, gedämmtes Ferienhaus aus Ziegelstein am Fluss Elbe im ruhigen Ferienhausgebiet Oseček. Aufteilung 3kk für bis zu 4 Personen.",
       "ctaPrimary": "Aufenthalt buchen",
       "ctaSecondary": "Galerie ansehen"
     },
@@ -77,8 +77,8 @@
     "home": {
       "seo": {
         "title": "Domeček Oseček — Ferienhaus zur Miete an der Elbe",
-        "description": "Voll ausgestattetes Ferienhaus aus Ziegelstein, Aufteilung 3kk, für bis zu 5 Personen im ruhigen Ferienhausgebiet Oseček an der Elbe. Terrasse, Feuerstelle, Klimaanlage und eigener Brunnen.",
-        "ogDescription": "Eine Oase der Ruhe im Ferienhausgebiet Oseček. Buchen Sie Ihren Aufenthalt im voll ausgestatteten Ferienhaus für bis zu 5 Personen."
+        "description": "Voll ausgestattetes Ferienhaus aus Ziegelstein, Aufteilung 3kk, für bis zu 4 Personen im ruhigen Ferienhausgebiet Oseček an der Elbe. Terrasse, Feuerstelle, Klimaanlage und eigener Brunnen.",
+        "ogDescription": "Eine Oase der Ruhe im Ferienhausgebiet Oseček. Buchen Sie Ihren Aufenthalt im voll ausgestatteten Ferienhaus für bis zu 4 Personen."
       }
     },
     "sluzby": {

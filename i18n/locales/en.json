@@ -34,7 +34,7 @@
   "home": {
     "hero": {
       "eyebrow": "An oasis of calm in a cottage area",
-      "description": "A fully equipped, insulated brick cottage by the Elbe river in the peaceful Oseček cottage area. Layout for up to 5 guests.",
+      "description": "A fully equipped, insulated brick cottage by the Elbe river in the peaceful Oseček cottage area. Layout for up to 4 guests.",
       "ctaPrimary": "Book your stay",
       "ctaSecondary": "View the gallery"
     },
@@ -77,8 +77,8 @@
     "home": {
       "seo": {
         "title": "Domeček Oseček — cottage for rent by the Elbe",
-        "description": "A fully equipped brick cottage with a 3-room layout for up to 5 guests in the peaceful Oseček cottage area by the Elbe river. Terrace, fire pit, air conditioning and its own well.",
-        "ogDescription": "An oasis of calm in the Oseček cottage area. Book your stay in a fully equipped cottage for up to 5 guests."
+        "description": "A fully equipped brick cottage with a 3-room layout for up to 4 guests in the peaceful Oseček cottage area by the Elbe river. Terrace, fire pit, air conditioning and its own well.",
+        "ogDescription": "An oasis of calm in the Oseček cottage area. Book your stay in a fully equipped cottage for up to 4 guests."
       }
     },
     "sluzby": {

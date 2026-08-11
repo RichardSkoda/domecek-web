@@ -17,7 +17,7 @@ useSeoMeta({
   <div>
     <PageHero :title="t('pages.sluzby.hero.title')" :subtitle="t('pages.sluzby.hero.subtitle')" :image="sectionBanners.sluzby" />
 
-    <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <section class="mx-auto max-w-6xl px-4 py-8 sm:px-6">
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <AmenityCard v-for="amenity in amenities" :key="amenity.id" :amenity="amenity" />
       </div>

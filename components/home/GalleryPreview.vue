@@ -1,10 +1,19 @@
 <script setup lang="ts">
 import { galleryImages, galleryImageUrl } from '~/data/gallery'
 
-const preview = galleryImages.filter((image) => image.featured).slice(0, 8)
+const previewOrder = [
+  'fotogalerie-018',
+  'fotogalerie-027',
+  'fotogalerie-034',
+  'home-006',
+  'fotogalerie-047',
+  'fotogalerie-023',
+  'fotogalerie-062',
+  'home-005',
+]
+const preview = previewOrder.map((id) => galleryImages.find((image) => image.id === id)!)
 const { t } = useI18n()
 const localePath = useLocalePath()
-const { tr } = useTranslated()
 </script>
 
 <template>
@@ -19,7 +28,7 @@ const { tr } = useTranslated()
         v-for="image in preview"
         :key="image.id"
         :src="galleryImageUrl(image)"
-        :alt="tr(image.translations)"
+        :alt="t(`gallery.categories.${image.category}`)"
         :width="image.width"
         :height="image.height"
         class="aspect-square w-full rounded-xl2 object-cover shadow-sm"

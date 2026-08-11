@@ -4,14 +4,13 @@ import { galleryImages, galleryImageUrl } from '~/data/gallery'
 const image = galleryImages.find((item) => item.id === 'fotogalerie-061')!
 const { t } = useI18n()
 const localePath = useLocalePath()
-const { tr } = useTranslated()
 </script>
 
 <template>
   <section class="relative overflow-hidden">
     <NuxtImg
       :src="galleryImageUrl(image)"
-      :alt="tr(image.translations)"
+      :alt="t(`gallery.categories.${image.category}`)"
       :width="image.width"
       :height="image.height"
       class="absolute inset-0 h-full w-full object-cover"

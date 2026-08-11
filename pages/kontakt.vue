@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { sectionBanners } from '~/data/media'
+import { instagramBadge, sectionBanners, sectionImageUrl } from '~/data/media'
 import { siteConfig } from '~/data/siteConfig'
 
 const { t } = useI18n()
@@ -37,9 +37,16 @@ useSeoMeta({
         :href="siteConfig.instagramUrl"
         target="_blank"
         rel="noopener noreferrer"
-        class="mt-10 inline-flex items-center gap-2 text-sm font-medium text-forest-700 hover:text-forest-800"
+        class="mt-10 inline-block transition-opacity hover:opacity-90"
       >
-        {{ t('pages.kontakt.instagramText') }}
+        <NuxtImg
+          :src="sectionImageUrl(instagramBadge)"
+          :alt="t('pages.kontakt.instagramText')"
+          :width="instagramBadge.width"
+          :height="instagramBadge.height"
+          class="h-auto w-64"
+          loading="lazy"
+        />
       </a>
     </section>
   </div>

@@ -35,6 +35,7 @@ const counts = computed(() => {
       :title="t('pages.fotogalerie.hero.title')"
       :subtitle="t('pages.fotogalerie.hero.subtitle')"
       :image="sectionBanners.fotogalerie"
+      :image-position-y="'70%'"
     />
 
     <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6">
