@@ -27,29 +27,29 @@
   --dp-cell-border-radius: 0.5rem;
   --dp-background-color: theme('colors.sand.50');
   --dp-text-color: theme('colors.ink.800');
-  --dp-hover-color: theme('colors.forest.100');
-  --dp-hover-text-color: theme('colors.forest.900');
-  --dp-hover-icon-color: theme('colors.forest.700');
-  --dp-primary-color: theme('colors.forest.700');
+  --dp-hover-color: rgb(var(--forest-100));
+  --dp-hover-text-color: rgb(var(--forest-900));
+  --dp-hover-icon-color: rgb(var(--forest-700));
+  --dp-primary-color: rgb(var(--forest-700));
   --dp-primary-text-color: theme('colors.sand.50');
   --dp-secondary-color: theme('colors.sand.700');
   --dp-border-color: theme('colors.sand.300');
   --dp-menu-border-color: theme('colors.sand.300');
-  --dp-border-color-hover: theme('colors.forest.600');
+  --dp-border-color-hover: rgb(var(--forest-600));
   --dp-disabled-color: theme('colors.sand.200');
   --dp-disabled-color-text: theme('colors.sand.500');
   --dp-scroll-bar-background: theme('colors.sand.200');
   --dp-scroll-bar-color: theme('colors.sand.500');
-  --dp-success-color: theme('colors.forest.600');
-  --dp-success-color-disabled: theme('colors.forest.300');
+  --dp-success-color: rgb(var(--forest-600));
+  --dp-success-color-disabled: rgb(var(--forest-300));
   --dp-icon-color: theme('colors.sand.700');
   --dp-danger-color: theme('colors.clay.500');
   --dp-marker-color: theme('colors.clay.500');
   --dp-tooltip-color: theme('colors.sand.100');
-  --dp-highlight-color: color-mix(in srgb, theme('colors.forest.700') 12%, transparent);
-  --dp-range-between-dates-background-color: theme('colors.forest.100');
-  --dp-range-between-dates-text-color: theme('colors.forest.900');
-  --dp-range-between-border-color: theme('colors.forest.300');
+  --dp-highlight-color: color-mix(in srgb, rgb(var(--forest-700)) 12%, transparent);
+  --dp-range-between-dates-background-color: rgb(var(--forest-100));
+  --dp-range-between-dates-text-color: rgb(var(--forest-900));
+  --dp-range-between-border-color: rgb(var(--forest-300));
 }
 
 .dp--input {

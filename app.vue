@@ -5,6 +5,16 @@ const { tr } = useTranslated()
 const head = useLocaleHead()
 useHead(head)
 
+const { color } = useThemeColor()
+const themeColorStyle = computed(() => {
+  const scale = generateForestRgbScale(color.value)
+  const vars = FOREST_SHADES.map((shade) => `--forest-${shade}:${scale[shade]};`).join('')
+  return `:root{${vars}}`
+})
+useHead({
+  style: [{ key: 'theme-color-vars', innerHTML: themeColorStyle }],
+})
+
 useSchemaOrg([
   defineLocalBusiness({
     '@type': 'LodgingBusiness',

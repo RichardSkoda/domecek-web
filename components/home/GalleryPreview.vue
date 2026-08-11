@@ -2,7 +2,7 @@
 import { galleryImages, galleryImageUrl } from '~/data/gallery'
 
 const previewOrder = [
-  'fotogalerie-018',
+  'fotogalerie-068',
   'fotogalerie-027',
   'fotogalerie-034',
   'home-006',

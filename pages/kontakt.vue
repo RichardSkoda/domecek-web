@@ -48,6 +48,8 @@ useSeoMeta({
           loading="lazy"
         />
       </a>
+
+      <ThemeColorPicker />
     </section>
   </div>
 </template>

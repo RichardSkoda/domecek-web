@@ -15,26 +15,26 @@ export const homeHero: HeroImage = {
 /** Menší banner obrázky pro hlavičky podstránek (public/images/sections/). */
 export const sectionBanners: Record<string, SectionImage> = {
   intro: {
-    id: 'home-003',
-    file: 'home-003.webp',
+    id: 'fotogalerie-068',
+    file: 'fotogalerie-068.webp',
     translations: {
       cs: 'Světlý obývací pokoj s posezením',
       en: 'Bright living room with seating',
       de: 'Helles Wohnzimmer mit Sitzgelegenheit',
     },
-    width: 3840,
-    height: 2161,
+    width: 3503,
+    height: 1970,
   },
   sluzby: {
-    id: 'sluzby-017',
-    file: 'sluzby-017.webp',
+    id: 'fotogalerie-066',
+    file: 'fotogalerie-066.webp',
     translations: {
       cs: 'Obývací pokoj se sedací soupravou',
       en: 'Living room with a sofa set',
       de: 'Wohnzimmer mit Sitzgarnitur',
     },
-    width: 1920,
-    height: 1080,
+    width: 4000,
+    height: 2250,
   },
   fotogalerie: {
     id: 'fotogalerie-050',

@@ -198,7 +198,10 @@
     "addressLabel": "Adresa",
     "mapTitle": "Mapa — Domeček Oseček",
     "mapFallback": "Mapa se nenačetla?",
-    "mapOpenLink": "Otevřít v Google Mapách"
+    "mapOpenLink": "Otevřít v Google Mapách",
+    "themeColorLabel": "Barva webu",
+    "themeColorHint": "Vyberte si barvu, která se vám líbí — web se podle ní přebarví jen ve vašem prohlížeči.",
+    "themeColorReset": "Výchozí barva"
   },
   "forms": {
     "booking": {

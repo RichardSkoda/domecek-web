@@ -198,7 +198,10 @@
     "addressLabel": "Address",
     "mapTitle": "Map — Domeček Oseček",
     "mapFallback": "Map not loading?",
-    "mapOpenLink": "Open in Google Maps"
+    "mapOpenLink": "Open in Google Maps",
+    "themeColorLabel": "Site color",
+    "themeColorHint": "Pick a color you like — the site recolors itself, just in your browser.",
+    "themeColorReset": "Reset to default"
   },
   "forms": {
     "booking": {
