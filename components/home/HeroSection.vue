@@ -26,7 +26,7 @@ const { tr } = useTranslated()
 
     <div class="relative mx-auto w-full max-w-6xl px-4 sm:px-6">
       <div
-        class="relative z-10 -mt-20 max-w-2xl rounded-2xl bg-ink-900/85 p-6 shadow-2xl ring-1 ring-white/10 backdrop-blur-md sm:-mt-24 sm:p-10"
+        class="relative z-10 -mt-20 max-w-3xl rounded-2xl bg-ink-900/85 p-6 shadow-2xl ring-1 ring-white/10 backdrop-blur-md sm:-mt-24 sm:p-10"
       >
         <p class="text-sm font-medium uppercase tracking-widest text-sand-100/90">{{ t('home.hero.eyebrow') }}</p>
         <h1 class="mt-3 font-display text-3xl font-semibold text-sand-50 sm:text-5xl">

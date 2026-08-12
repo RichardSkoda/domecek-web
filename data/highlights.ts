@@ -10,7 +10,7 @@ export const highlights: Highlight[] = [
   {
     id: 'kapacita',
     icon: 'users',
-    translations: { cs: 'Ubytování až pro 4 osob', en: 'Accommodation for up to 5 people', de: 'Unterkunft für bis zu 5 Personen' },
+    translations: { cs: 'Ubytování až pro 4 osoby', en: 'Accommodation for up to 5 people', de: 'Unterkunft für bis zu 5 Personen' },
   },
   {
     id: 'kuchyn',

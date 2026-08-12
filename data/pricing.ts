@@ -77,12 +77,4 @@ export const priceNotes: PriceNote[] = [
       de: 'Die Mindestmietdauer beträgt zwei Nächte.',
     },
   },
-  {
-    id: 'kauce',
-    translations: {
-      cs: 'Vratná kauce je ve výši 5 000 Kč.',
-      en: 'A refundable deposit of CZK 5,000 is required.',
-      de: 'Es wird eine rückzahlbare Kaution in Höhe von 5.000 CZK erhoben.',
-    },
-  },
 ]

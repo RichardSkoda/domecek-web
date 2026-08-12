@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { instagramBadge, sectionImageUrl } from '~/data/media'
 import { navLinks, siteConfig } from '~/data/siteConfig'
 
 const { t } = useI18n()
@@ -17,14 +18,16 @@ const { reset: resetCookieConsent } = useCookieConsent()
           :href="siteConfig.instagramUrl"
           target="_blank"
           rel="noopener noreferrer"
-          class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-forest-700 hover:text-forest-800"
+          class="mt-4 inline-block transition-opacity hover:opacity-90"
         >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-5 w-5">
-            <rect x="3" y="3" width="18" height="18" rx="5" />
-            <circle cx="12" cy="12" r="4" />
-            <circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" />
-          </svg>
-          {{ t('footer.instagramHandle') }}
+          <NuxtImg
+            :src="sectionImageUrl(instagramBadge)"
+            :alt="t('footer.instagramHandle')"
+            :width="instagramBadge.width"
+            :height="instagramBadge.height"
+            class="h-auto w-36"
+            loading="lazy"
+          />
         </a>
       </div>
 

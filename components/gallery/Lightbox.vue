@@ -91,7 +91,5 @@ onUnmounted(() => {
         <path stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6" />
       </svg>
     </button>
-
-    <p class="absolute bottom-4 left-1/2 -translate-x-1/2 text-sm text-sand-100/80">{{ currentAlt }}</p>
   </div>
 </template>
