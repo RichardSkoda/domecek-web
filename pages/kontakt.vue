@@ -14,6 +14,7 @@ useSeoMeta({
       zip: siteConfig.address.zip,
       city: siteConfig.address.city,
     }),
+  ogImage: sectionImageUrl(sectionBanners.kontakt),
 })
 </script>
 
@@ -49,7 +50,9 @@ useSeoMeta({
         />
       </a>
 
+      <!-- Přepínač barvy webu je dočasně skrytý (možný dopad na kvalitu SEO), funkce zůstává zachovaná.
       <ThemeColorPicker />
+      -->
     </section>
   </div>
 </template>

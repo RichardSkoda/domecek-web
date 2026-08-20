@@ -19,6 +19,21 @@ export default defineNuxtConfig({
     name: 'Domeček Oseček',
   },
 
+  // Každý stránkový title v i18n překladech už obsahuje "— Domeček Oseček" sám o sobě,
+  // takže výchozí šablonu @nuxtjs/seo (přidávající "| Domeček Oseček") vypínáme,
+  // jinak by se název webu v <title> zdvojil.
+  app: {
+    head: {
+      titleTemplate: '%s',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      ],
+    },
+  },
+
   image: {
     quality: 80,
     format: ['webp'],

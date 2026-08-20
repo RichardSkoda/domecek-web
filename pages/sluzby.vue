@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { amenities } from '~/data/amenities'
-import { sectionBanners } from '~/data/media'
+import { sectionBanners, sectionImageUrl } from '~/data/media'
 
 const { t } = useI18n()
 
@@ -10,6 +10,7 @@ useSeoMeta({
   title: () => t('pages.sluzby.seo.title'),
   description: () => t('pages.sluzby.seo.description'),
   ogTitle: () => t('pages.sluzby.seo.title'),
+  ogImage: sectionImageUrl(sectionBanners.sluzby),
 })
 </script>
 

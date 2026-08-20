@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ImageCategory } from '~/types/content'
 import { galleryImages } from '~/data/gallery'
-import { sectionBanners } from '~/data/media'
+import { sectionBanners, sectionImageUrl } from '~/data/media'
 
 const { t } = useI18n()
 
@@ -10,6 +10,7 @@ definePageMeta({ i18n: { paths: { en: '/gallery', de: '/galerie' } } })
 useSeoMeta({
   title: () => t('pages.fotogalerie.seo.title'),
   description: () => t('pages.fotogalerie.seo.description'),
+  ogImage: sectionImageUrl(sectionBanners.fotogalerie),
 })
 
 const activeCategory = ref<ImageCategory | 'vse'>('vse')

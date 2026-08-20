@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { sectionBanners } from '~/data/media'
+import { sectionBanners, sectionImageUrl } from '~/data/media'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
@@ -9,6 +9,7 @@ definePageMeta({ i18n: { paths: { en: '/availability', de: '/verfuegbarkeit' } }
 useSeoMeta({
   title: () => t('pages.obsazenost.seo.title'),
   description: () => t('pages.obsazenost.seo.description'),
+  ogImage: sectionImageUrl(sectionBanners.obsazenost),
 })
 </script>
 

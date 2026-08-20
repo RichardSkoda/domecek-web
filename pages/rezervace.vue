@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { sectionBanners } from '~/data/media'
+import { sectionBanners, sectionImageUrl } from '~/data/media'
 import { siteConfig } from '~/data/siteConfig'
 
 const { t } = useI18n()
@@ -9,6 +9,7 @@ definePageMeta({ i18n: { paths: { en: '/booking', de: '/reservierung' } } })
 useSeoMeta({
   title: () => t('pages.rezervace.seo.title'),
   description: () => t('pages.rezervace.seo.description'),
+  ogImage: sectionImageUrl(sectionBanners.rezervace),
 })
 </script>
 
